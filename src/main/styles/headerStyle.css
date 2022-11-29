@@ -1,0 +1,118 @@
+.backgroundGif {
+    background-image: url("../background.gif");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.helloText {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 20vw;
+    right: 20vw;
+    width: 40vw;
+    top: 30vh;
+    font-size: 2rem;
+    color: #18643d;
+    box-shadow: #00BAF0 0 0 100px 22px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.headerHappyServices1 {
+    position: absolute;
+    font-family: "Comic Sans MS", monospace, sans-serif;
+    background: rgba(245, 245, 245, 0.8);
+    top: 60vh;
+    left: 20vw;
+    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.headerHappyServices2 {
+    position: absolute;
+    font-family: "Comic Sans MS", monospace, sans-serif;
+    background: rgba(245, 245, 245, 0.8);
+    top: 60vh;
+    right: 20vw;
+    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.headerHappyServices3 {
+    position: absolute;
+    font-family: "Comic Sans MS", monospace, sans-serif;
+    background: rgba(245, 245, 245, 0.8);
+    top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 20vw;
+    right: 20vw;
+    width: 40vw;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 555px) {
+    .headerHappyServices1 {
+        top: 40vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 20vw;
+        right: 20vw;
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    .headerHappyServices2 {
+        top: 55vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 20vw;
+        right: 20vw;
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    .headerHappyServices3 {
+        top: 70vh;
+        margin-left: auto;
+        margin-right: auto;
+        left: 20vw;
+        right: 20vw;
+        width: 50vw;
+        text-align: center;
+    }
+
+    .helloText {
+        top: 10vh;
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .helloText {
+        left: 10vw;
+        right: 10vw;
+        width: 60vw;
+        font-size: 1.6rem;
+        top: 15vh;
+        border-radius: 10px;
+    }
+
+    .headerHappyServices2 {
+        font-size: 1rem;
+    }
+}
