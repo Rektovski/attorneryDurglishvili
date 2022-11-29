@@ -24,12 +24,12 @@ export default function Navbar() {
                     <li>
                         <a href={'#services'}>მომსახურება</a>
                     </li>
-                    {/*<li>*/}
-                    {/*    <a href={''}>ჩვენს შესახებ</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                    {/*    <a href={''}>კონტაქტი</a>*/}
-                    {/*</li>*/}
+                    <li>
+                        <a href={'#aboutus'}>ჩვენს შესახებ</a>
+                    </li>
+                    <li>
+                        <a href={'#contact'}>კონტაქტი</a>
+                    </li>
                 </ul>
             </section>
         </>
