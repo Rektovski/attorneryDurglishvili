@@ -13,27 +13,27 @@ const colService = [
     {
         "icon": <ServiceDocumentationIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "დოკუმენტაციასთან მუშაობა"
     },
     {
         "icon": <ServiceSearchIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "გამოძიება"
     },
     {
         "icon": <ServiceBabyIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "არასრულწლოვანთა მიმართულება"
     },
     {
         "icon": <ServiceBloodIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "სისხლის სამართალი"
     },
     {
         "icon": <ServiceDivorceIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "განქორწინება"
     },
     {
         "icon": "",
@@ -43,7 +43,7 @@ const colService = [
     {
         "icon": <ServiceTeachIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "სწავლება/ტრენინგი"
     },
     {
         "icon": "",
