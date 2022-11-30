@@ -1,0 +1,85 @@
+.Contact {
+    position: relative;
+    margin-top: 550px;
+    height: 100vh;
+    width: 100%;
+}
+
+@media (max-width: 360px) {
+    .Contact {
+        margin-top: 650px;
+    }
+}
+
+@media (max-width: 300px) {
+    .Contact {
+        margin-top: 750px;
+    }
+}
+
+.contactForm {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    background: rgb(238,174,202);
+    background: linear-gradient(45deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: whitesmoke;
+}
+
+.FormLabels {
+    font-size: 1.5rem;
+}
+
+.formTextarea {
+    max-height: 200px;
+}
+
+.circle {
+    position: relative;
+    left: 70%;
+    top: -20%;
+    z-index: -1;
+    width: 800px;
+    height: 800px;
+    display: block;
+    background: black;
+    border-radius: 50%;
+    margin: 0;
+    background: radial-gradient(circle at 0 100px, #5cabff, #000);
+    transition: all 1s ease-in-out;
+}
+
+.circle:hover {
+    transition: .3s;
+    left: 65%;
+    top: -15%;
+}
+
+@media (max-width: 400px) {
+    .contactForm {
+        left: 0;
+        width: 80vw;
+    }
+
+    .circle {
+        height: 600px;
+        width: 600px;
+        left: 50%;
+    }
+}
+
+.submitHoorayButton {
+    padding: 10px 20px;
+    background: white;
+    color: #333333;
+    border: 1px solid darkslategrey;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+
+.submitHoorayButton:hover {
+    transition: .5s;
+    background: darkslategrey;
+    color: whitesmoke;
+}

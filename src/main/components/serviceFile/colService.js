@@ -8,32 +8,32 @@ const colService = [
     {
         "icon": <ServiceCallIcon/>,
         "className": "serviceCard",
-        "desc": "უფასო კონსულტანცია"
+        "desc": "Free Consultation"
     },
     {
         "icon": <ServiceDocumentationIcon/>,
         "className": "serviceCard",
-        "desc": "დოკუმენტაციასთან მუშაობა"
+        "desc": "Writing/Reading Documentation"
     },
     {
         "icon": <ServiceSearchIcon/>,
         "className": "serviceCard",
-        "desc": "გამოძიება"
+        "desc": "Research"
     },
     {
         "icon": <ServiceBabyIcon/>,
         "className": "serviceCard",
-        "desc": "არასრულწლოვანთა მიმართულება"
+        "desc": "Juvenile jurisprudence"
     },
     {
         "icon": <ServiceBloodIcon/>,
         "className": "serviceCard",
-        "desc": "სისხლის სამართალი"
+        "desc": "Criminal Law"
     },
     {
         "icon": <ServiceDivorceIcon/>,
         "className": "serviceCard",
-        "desc": "განქორწინება"
+        "desc": "Divorcing"
     },
     {
         "icon": "",
@@ -43,7 +43,7 @@ const colService = [
     {
         "icon": <ServiceTeachIcon/>,
         "className": "serviceCard",
-        "desc": "სწავლება/ტრენინგი"
+        "desc": "Teaching/Training"
     },
     {
         "icon": "",

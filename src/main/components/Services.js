@@ -1,6 +1,6 @@
 import "../styles/serviceStyle.css";
 import {Col, Container, Row} from "react-bootstrap";
-import colService from "./colService";
+import colService from "./serviceFile/colService";
 
 export default function Services() {
     return (
@@ -8,12 +8,12 @@ export default function Services() {
             <>
                 <Container fluid id={"services"} className={'services'}>
                     <div className={'ServiceAlert'}>
-                        <div className={'ServicesHeader text-center'}>სერვისები</div>
+                        <div className={'ServicesHeader text-center'}>Services</div>
                         <div className={'Alert'}>
-                            <h4 >*მომსახურების საფასური*</h4>
+                            <h4>!Note:</h4>
                             <div className={'AlertText'}>
-                                თითოეული მომსახურების საფასური ინდივიდუალურია. მათ შესახებ ინფორმაციას მიიღებთ
-                                ადვოკატთან კონსულტანციის გავლისას, საჭიროებისამებრ.
+                                The fee for each service is individual.
+                                You will receive information about them In consultation with a attorney.
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ export default function Services() {
                         {
                             colService.map((item, id) => (
                                 <Col key={id} className={item.className} sm={6} md={6} lg={4} xl={4} xxl={3}>
-                                    <div style={{fontSize: 60}}>
+                                    <div style={{fontSize: 80}}>
                                         {item.icon}
                                     </div>
                                     <div className={'serviceCardText'}>

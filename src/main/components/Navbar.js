@@ -19,16 +19,16 @@ export default function Navbar() {
                 </label>
                 <ul className="menu">
                     <li>
-                        <a href={'#header'}>მთავარი გვერდი</a>
+                        <a href={'#header'}>Home</a>
                     </li>
                     <li>
-                        <a href={'#services'}>მომსახურება</a>
+                        <a href={'#services'}>Services</a>
                     </li>
                     <li>
-                        <a href={'#aboutus'}>ჩვენს შესახებ</a>
+                        <a href={'#aboutus'}>About us</a>
                     </li>
                     <li>
-                        <a href={'#contact'}>კონტაქტი</a>
+                        <a href={'#contact'}>Contact</a>
                     </li>
                 </ul>
             </section>

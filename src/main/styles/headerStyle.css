@@ -1,5 +1,5 @@
 .backgroundGif {
-    background-image: url("../background.gif");
+    background-image: url("../images/background.gif");
     background-color: #cccccc; /* Used if the image is unavailable */
     height: 100vh; /* You must set a specified height */
     background-position: center; /* Center the image */
@@ -102,11 +102,11 @@
     }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 800px) {
     .helloText {
         left: 10vw;
         right: 10vw;
-        width: 60vw;
+        width: 80vw;
         font-size: 1.6rem;
         top: 15vh;
         border-radius: 10px;
@@ -114,5 +114,20 @@
 
     .headerHappyServices2 {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .helloText {
+        left: 10vw;
+        right: 10vw;
+        width: 60vw;
+        font-size: 1.3rem;
+        top: 15vh;
+        border-radius: 10px;
+    }
+
+    .headerHappyServices1 .headerHappyServices2 .headerHappyServices3 {
+        font-size: 10px;
     }
 }

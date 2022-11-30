@@ -1,20 +1,21 @@
 import "../styles/headerStyle.css";
+import "../styles/helloTypeWriter.css";
 
 export default function Header() {
     return (
         <>
             <div id={"header"} className={'backgroundGif'}>
-                <div className={'helloText'}>
-                    <div>მე დავიცავ თქვენს უფლებებს</div>
+                <div className={'helloText css-typing d-flex justify-content-center align-items-center'}>
+                    <p className={"typerText"}>I Will Protect Your Rights!</p>
                 </div>
                 <div className={'headerHappyServices1'}>
-                    <div>სანდოობა</div>
+                    <div>Reliability</div>
                 </div>
                 <div className={'headerHappyServices2'}>
-                    <div>გამოცდილება</div>
+                    <div>Experience</div>
                 </div>
                 <div className={'headerHappyServices3'}>
-                    <div>განათლება</div>
+                    <div>Knowledge</div>
                 </div>
             </div>
         </>

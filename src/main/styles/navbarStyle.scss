@@ -24,8 +24,7 @@
   -moz-transition: ease-in-out all .4s;
   -webkit-transition: ease-in-out all .4s;
   transition: .3s;
-  background-color: #00BAF0;
-  background: linear-gradient(to left, rgba(30, 172, 224, 0.8), rgba(255, 255, 255, 0.8));
+  background-color: darkslategray;
 }
 
 .menu {
@@ -115,7 +114,6 @@
   }
   #menu-toggle:checked ~ .menu li {
     border: 1px solid #79ad9c;
-    background: beige;
     color: darkcyan;
     height: 2.5em;
     padding: 0.5em;

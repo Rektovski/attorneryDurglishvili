@@ -1,5 +1,7 @@
 .App {
+    overflow: hidden;
     cursor: default;
+    font-family: "Comic Sans MS", monospace, sans-serif, serif;
 }
 
 a {
